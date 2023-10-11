@@ -1,16 +1,30 @@
 Package: fecapi
-Title: What the Package Does
+Title: 'OpenFEC' 'API' Client
 Version: 0.0.0.9000
 Authors@R: 
     person("Jon", "Harmon", , "jonthegeek@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-4781-4346"))
-Description: The goal of fecapi is to...
+Description: A client to interact with the 'OpenFEC' 'API' at
+    <https://api.open.fec.gov/developers/>. The 'OpenFEC' 'API' provides
+    programmatic access to campaign finance data stored by the Federal
+    Election Commission.
 License: MIT + file LICENSE
 URL: https://github.com/jonthegeek/fecapi,
     https://jonthegeek.github.io/fecapi/
 BugReports: https://github.com/jonthegeek/fecapi/issues
+Imports: 
+    httr2,
+    nectar,
+    rlang,
+    tibble,
+    tidyr
 Suggests: 
+    beekeeper,
+    httptest2,
     testthat (>= 3.0.0)
+Remotes:
+    jonthegeek/beekeeper,
+    jonthegeek/nectar
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

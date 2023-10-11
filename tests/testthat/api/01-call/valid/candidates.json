@@ -1,0 +1,676 @@
+{
+    "api_version": "1.0",
+    "pagination": {
+        "count": 48656,
+        "page": 1,
+        "pages": 2433,
+        "per_page": 20
+    },
+    "results": [
+        {
+            "active_through": 2024,
+            "candidate_id": "P40014052",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-06-24",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-06-24",
+            "last_file_date": "2023-06-24",
+            "load_date": "2023-07-10T21:05:09",
+            "name": "212 N HALF  W. JOHN, RODNEY HOWARD MR.",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40013401",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-06-04",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-06-04",
+            "last_file_date": "2023-06-04",
+            "load_date": "2023-06-08T21:05:05",
+            "name": "375 ROB ROY DR, DAVID J SR SR",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40013393",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-06-04",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-06-04",
+            "last_file_date": "2023-06-04",
+            "load_date": "2023-06-08T21:05:05",
+            "name": "375 ROB ROY DR, DAVID J SR SR",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "P00011569",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2020,
+                2022
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-04-23",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2019-04-23",
+            "last_file_date": "2019-04-23",
+            "load_date": "2021-12-08T06:50:50",
+            "name": "753, JO",
+            "office": "P",
+            "office_full": "President",
+            "party": "NNE",
+            "party_full": "NONE",
+            "state": "US"
+        },
+        {
+            "active_through": 2004,
+            "candidate_id": "P40002172",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2002,
+                2004
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2004
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2002-01-30",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2002-01-30",
+            "last_file_date": "2002-01-30",
+            "load_date": "2002-04-12T00:00:00",
+            "name": "AABBATTE, MICHAEL THOMAS WITORT",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2CO07170",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "07",
+            "district_number": 7,
+            "election_districts": [
+                "07"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-12-27",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2022-08-10",
+            "last_file_date": "2022-08-10",
+            "load_date": "2023-03-09T10:16:03",
+            "name": "AADLAND, ERIK",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "CO"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "S2CO00175",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-06-04",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2021-06-04",
+            "last_file_date": "2021-06-04",
+            "load_date": "2023-03-09T10:16:03",
+            "name": "AADLAND, ERIK",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "CO"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2UT03280",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2022
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2020-03-24",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-03-21",
+            "last_file_date": "2022-03-21",
+            "load_date": "2022-04-13T21:10:09",
+            "name": "AALDERS, TIM",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "UT"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "S2UT00229",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2012,
+                2014,
+                2016,
+                2018,
+                2020
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00",
+                "00"
+            ],
+            "election_years": [
+                2012,
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2012-02-08",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2018-04-23",
+            "last_file_date": "2018-04-23",
+            "load_date": "2019-03-27T16:02:41",
+            "name": "AALDERS, TIMOTHY NOEL",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "CON",
+            "party_full": "CONSTITUTION PARTY",
+            "state": "UT"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "H0TX22260",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2020
+            ],
+            "district": "22",
+            "district_number": 22,
+            "election_districts": [
+                "22"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-10-17",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2019-10-17",
+            "last_file_date": "2019-10-17",
+            "load_date": "2020-03-18T21:13:37",
+            "name": "AALOORI, BANGAR REDDY",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 1978,
+            "candidate_id": "H6PA16106",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1976,
+                1978,
+                1980
+            ],
+            "district": "16",
+            "district_number": 16,
+            "election_districts": [
+                "16",
+                "16"
+            ],
+            "election_years": [
+                1976,
+                1978
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1976-04-12",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": null,
+            "incumbent_challenge_full": null,
+            "last_f2_date": "1978-07-05",
+            "last_file_date": "1978-07-05",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "AAMODT, NORMAN O.",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "PA"
+        },
+        {
+            "active_through": 2012,
+            "candidate_id": "H2CA01110",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2012,
+                2014,
+                2016
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01"
+            ],
+            "election_years": [
+                2012
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2012-02-22",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2012-02-22",
+            "last_file_date": "2012-02-22",
+            "load_date": "2013-04-26T09:04:30",
+            "name": "AANESTAD, SAMUEL",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "H8CO06237",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2018
+            ],
+            "district": "06",
+            "district_number": 6,
+            "election_districts": [
+                "06"
+            ],
+            "election_years": [
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2017-04-26",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2017-04-26",
+            "last_file_date": "2017-04-26",
+            "load_date": "2017-08-01T20:57:28",
+            "name": "AARESTAD, DAVID",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "CO"
+        },
+        {
+            "active_through": 1998,
+            "candidate_id": "H8CA18053",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1998
+            ],
+            "district": "18",
+            "district_number": 18,
+            "election_districts": [
+                "18"
+            ],
+            "election_years": [
+                1998
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-04-03T00:00:00",
+            "name": "AAROE, KEN",
+            "office": "H",
+            "office_full": "House",
+            "party": "LIB",
+            "party_full": "LIBERTARIAN PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 2008,
+            "candidate_id": "P80002926",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2006,
+                2008,
+                2010,
+                2012,
+                2014,
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2008
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2005-10-12",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2007-03-13",
+            "last_file_date": "2007-03-13",
+            "load_date": "2016-11-17T06:10:48",
+            "name": "AARON, LAURA DAVIS",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "H0FL21102",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2020
+            ],
+            "district": "21",
+            "district_number": 21,
+            "election_districts": [
+                "21"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-11-20",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2019-11-20",
+            "last_file_date": "2019-11-20",
+            "load_date": "2019-11-25T21:06:05",
+            "name": "AARONS, ADAM",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "FL"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H4OR05312",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-07-24",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-07-24",
+            "last_file_date": "2023-07-24",
+            "load_date": "2023-08-18T21:04:10",
+            "name": "AASEN, ANDREW J",
+            "office": "H",
+            "office_full": "House",
+            "party": "NON",
+            "party_full": "NON-PARTY",
+            "state": "OR"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H2CA30291",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "32",
+            "district_number": 32,
+            "election_districts": [
+                "32",
+                "32"
+            ],
+            "election_years": [
+                2022,
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-01-16",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-07-15",
+            "last_file_date": "2022-07-15",
+            "load_date": "2023-01-12T22:24:01",
+            "name": "AAZAMI, SHERVIN",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60016326",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2015-09-30",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2015-09-30",
+            "last_file_date": "2015-09-30",
+            "load_date": "2016-11-17T06:10:49",
+            "name": "ABABIY, JON",
+            "office": "P",
+            "office_full": "President",
+            "party": "PAF",
+            "party_full": "PEACE AND FREEDOM",
+            "state": "US"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2MN07162",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "07",
+            "district_number": 7,
+            "election_districts": [
+                "07"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2022-06-06",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-06-06",
+            "last_file_date": "2022-06-06",
+            "load_date": "2023-03-09T10:16:03",
+            "name": "ABAHSAIN, JILL",
+            "office": "H",
+            "office_full": "House",
+            "party": "DFL",
+            "party_full": "DEMOCRATIC-FARMER-LABOR",
+            "state": "MN"
+        }
+    ]
+}
