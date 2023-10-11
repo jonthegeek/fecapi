@@ -4,9 +4,9 @@
 \name{fecapi-package}
 \alias{fecapi}
 \alias{fecapi-package}
-\title{fecapi: What the Package Does}
+\title{fecapi: 'OpenFEC' 'API' Client}
 \description{
-The goal of fecapi is to...
+A client to interact with the 'OpenFEC' 'API' at \url{https://api.open.fec.gov/developers/}. The 'OpenFEC' 'API' provides programmatic access to campaign finance data stored by the Federal Election Commission.
 }
 \seealso{
 Useful links:

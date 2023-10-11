@@ -22,7 +22,8 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/jonthegeek/fecapi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jonthegeek/fecapi/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of fecapi is to...
+A client to interact with the [OpenFEC API](https://api.open.fec.gov/developers/). 
+The OpenFEC API provides programmatic access to campaign finance data stored by the Federal Election Commission.
 
 ## Installation
 
@@ -33,9 +34,23 @@ You can install the development version of fecapi from [GitHub](https://github.c
 remotes::install_github("jonthegeek/fecapi")
 ```
 
+## Made with {beekeeper}
+
+This package is being developed using the [{beekeeper}](https://beekeeper.api2r.org/) package.
+Development is very active, and this package will likely change a lot in the coming weeks.
+
 ## Usage
 
-Add usage information and examples here.
+This package is still a work in progress, and we do not yet recommend usage.
+However, you can experiment using the `fec_all_api()` function, or the `fec_get_candidates()` function.
+
+```{r get-candidates}
+# Get your API key at https://api.open.fec.gov/developers/
+library(fecapi)
+fec_get_candidates() |> head()
+
+fec_get_candidates(office = "P") |> head()
+```
 
 ## Code of Conduct
 
