@@ -5,14 +5,20 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="The goal of fecapi is to...">
-<title>What the Package Does • fecapi</title>
+<meta name="description" content="A client to interact with the OpenFEC API at
+    &lt;https://api.open.fec.gov/developers/&gt;. The OpenFEC API provides
+    programmatic access to campaign finance data stored by the Federal
+    Election Commission.">
+<title>OpenFEC API Client • fecapi</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="What the Package Does">
-<meta property="og:description" content="The goal of fecapi is to...">
+<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="OpenFEC API Client">
+<meta property="og:description" content="A client to interact with the OpenFEC API at
+    &lt;https://api.open.fec.gov/developers/&gt;. The OpenFEC API provides
+    programmatic access to campaign finance data stored by the Federal
+    Election Commission.">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -62,7 +68,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>The goal of fecapi is to…</p>
+<p>A client to interact with the <a href="https://api.open.fec.gov/developers/" class="external-link">OpenFEC API</a>. The OpenFEC API provides programmatic access to campaign finance data stored by the Federal Election Commission.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -72,9 +78,52 @@
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"jonthegeek/fecapi"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
+<h2 id="made-with-beekeeper">Made with {beekeeper}<a class="anchor" aria-label="anchor" href="#made-with-beekeeper"></a>
+</h2>
+<p>This package is being developed using the <a href="https://beekeeper.api2r.org/" class="external-link">{beekeeper}</a> package. Development is very active, and this package will likely change a lot in the coming weeks.</p>
+</div>
+<div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
-<p>Add usage information and examples here.</p>
+<p>This package is still a work in progress, and we do not yet recommend usage. However, you can experiment using the <code>fec_all_api()</code> function, or the <code><a href="reference/fec_get_candidates.html">fec_get_candidates()</a></code> function.</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># Get your API key at https://api.open.fec.gov/developers/</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/jonthegeek/fecapi" class="external-link">fecapi</a></span><span class="op">)</span></span>
+<span><span class="fu"><a href="reference/fec_get_candidates.html">fec_get_candidates</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 6 × 24</span></span>
+<span><span class="co">#&gt;   active_through candidate_id candidate_inactive candidate_status cycles    </span></span>
+<span><span class="co">#&gt;            &lt;int&gt; &lt;chr&gt;        &lt;lgl&gt;              &lt;chr&gt;            &lt;list&gt;    </span></span>
+<span><span class="co">#&gt; 1           2024 P40014052    FALSE              N                &lt;list [1]&gt;</span></span>
+<span><span class="co">#&gt; 2           2024 P40013401    FALSE              N                &lt;list [1]&gt;</span></span>
+<span><span class="co">#&gt; 3           2024 P40013393    FALSE              N                &lt;list [1]&gt;</span></span>
+<span><span class="co">#&gt; 4           2020 P00011569    FALSE              N                &lt;list [2]&gt;</span></span>
+<span><span class="co">#&gt; 5           2004 P40002172    FALSE              N                &lt;list [2]&gt;</span></span>
+<span><span class="co">#&gt; 6           2022 S2CO00175    FALSE              P                &lt;list [2]&gt;</span></span>
+<span><span class="co">#&gt; # ℹ 19 more variables: district &lt;chr&gt;, district_number &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   election_districts &lt;list&gt;, election_years &lt;list&gt;, federal_funds_flag &lt;lgl&gt;,</span></span>
+<span><span class="co">#&gt; #   first_file_date &lt;chr&gt;, has_raised_funds &lt;lgl&gt;,</span></span>
+<span><span class="co">#&gt; #   inactive_election_years &lt;lgl&gt;, incumbent_challenge &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   incumbent_challenge_full &lt;chr&gt;, last_f2_date &lt;chr&gt;, last_file_date &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   load_date &lt;chr&gt;, name &lt;chr&gt;, office &lt;chr&gt;, office_full &lt;chr&gt;, party &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   party_full &lt;chr&gt;, state &lt;chr&gt;</span></span>
+<span></span>
+<span><span class="fu"><a href="reference/fec_get_candidates.html">fec_get_candidates</a></span><span class="op">(</span>office <span class="op">=</span> <span class="st">"P"</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 6 × 24</span></span>
+<span><span class="co">#&gt;   active_through candidate_id candidate_inactive candidate_status cycles    </span></span>
+<span><span class="co">#&gt;            &lt;int&gt; &lt;chr&gt;        &lt;lgl&gt;              &lt;chr&gt;            &lt;list&gt;    </span></span>
+<span><span class="co">#&gt; 1           2024 P40014052    FALSE              N                &lt;list [1]&gt;</span></span>
+<span><span class="co">#&gt; 2           2024 P40013401    FALSE              N                &lt;list [1]&gt;</span></span>
+<span><span class="co">#&gt; 3           2024 P40013393    FALSE              N                &lt;list [1]&gt;</span></span>
+<span><span class="co">#&gt; 4           2020 P00011569    FALSE              N                &lt;list [2]&gt;</span></span>
+<span><span class="co">#&gt; 5           2004 P40002172    FALSE              N                &lt;list [2]&gt;</span></span>
+<span><span class="co">#&gt; 6           2008 P80002926    FALSE              N                &lt;list [6]&gt;</span></span>
+<span><span class="co">#&gt; # ℹ 19 more variables: district &lt;chr&gt;, district_number &lt;int&gt;,</span></span>
+<span><span class="co">#&gt; #   election_districts &lt;list&gt;, election_years &lt;list&gt;, federal_funds_flag &lt;lgl&gt;,</span></span>
+<span><span class="co">#&gt; #   first_file_date &lt;chr&gt;, has_raised_funds &lt;lgl&gt;,</span></span>
+<span><span class="co">#&gt; #   inactive_election_years &lt;lgl&gt;, incumbent_challenge &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   incumbent_challenge_full &lt;chr&gt;, last_f2_date &lt;chr&gt;, last_file_date &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   load_date &lt;chr&gt;, name &lt;chr&gt;, office &lt;chr&gt;, office_full &lt;chr&gt;, party &lt;chr&gt;,</span></span>
+<span><span class="co">#&gt; #   party_full &lt;chr&gt;, state &lt;chr&gt;</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
