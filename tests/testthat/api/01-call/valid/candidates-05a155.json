@@ -1,9 +1,10 @@
 {
     "api_version": "1.0",
     "pagination": {
-        "count": 48656,
+        "count": 49964,
+        "is_count_exact": true,
         "page": 1,
-        "pages": 2433,
+        "pages": 2499,
         "per_page": 20
     },
     "results": [
@@ -41,7 +42,7 @@
         },
         {
             "active_through": 2024,
-            "candidate_id": "P40013401",
+            "candidate_id": "P40013393",
             "candidate_inactive": false,
             "candidate_status": "N",
             "cycles": [
@@ -73,7 +74,7 @@
         },
         {
             "active_through": 2024,
-            "candidate_id": "P40013393",
+            "candidate_id": "P40013401",
             "candidate_inactive": false,
             "candidate_status": "N",
             "cycles": [
@@ -544,7 +545,7 @@
             "active_through": 2024,
             "candidate_id": "H4OR05312",
             "candidate_inactive": false,
-            "candidate_status": "N",
+            "candidate_status": "C",
             "cycles": [
                 2024
             ],
@@ -558,13 +559,13 @@
             ],
             "federal_funds_flag": false,
             "first_file_date": "2023-07-24",
-            "has_raised_funds": false,
+            "has_raised_funds": true,
             "inactive_election_years": null,
             "incumbent_challenge": "C",
             "incumbent_challenge_full": "Challenger",
             "last_f2_date": "2023-07-24",
             "last_file_date": "2023-07-24",
-            "load_date": "2023-08-18T21:04:10",
+            "load_date": "2023-10-16T21:03:02",
             "name": "AASEN, ANDREW J",
             "office": "H",
             "office_full": "House",

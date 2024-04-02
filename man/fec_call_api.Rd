@@ -26,10 +26,9 @@ class "fs_path" to indicate that it is a path.}
 \item{method}{If the method is something other than GET or POST, supply it.
 Case is ignored.}
 
-\item{api_key}{An API key provided by the FEC. Get your key at
-https://api.open.fec.gov/developers/. We recommend storing the key in your
-\code{.Renviron} file as \code{FEC_API_KEY}. The default value, "DEMO_KEY", allows
-for limited experimentation.}
+\item{api_key}{An API key provided by the API provider. This key is not
+clearly documented in the API description. Check the API documentation for
+details.}
 }
 \value{
 The response from the endpoint.

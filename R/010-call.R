@@ -3,10 +3,9 @@
 #' Generate a request to an OpenFEC endpoint.
 #'
 #' @inheritParams nectar::call_api
-#' @param api_key An API key provided by the FEC. Get your key at
-#'   https://api.open.fec.gov/developers/. We recommend storing the key in your
-#'   `.Renviron` file as `FEC_API_KEY`. The default value, "DEMO_KEY", allows
-#'   for limited experimentation.
+#' @param api_key An API key provided by the API provider. This key is not
+#'   clearly documented in the API description. Check the API documentation for
+#'   details.
 #'
 #' @return The response from the endpoint.
 #' @export
@@ -26,14 +25,6 @@ fec_call_api <- function(path,
     method = method,
     user_agent = "fecapi (https://github.com/jonthegeek/fecapi)",
     security_fn = fec_security,
-    security_args = list(api_key = api_key),
-    response_parser = fec_parse_response
+    security_args = list(api_key = api_key)
   )
-}
-
-fec_parse_response <- function(resp) {
-  resp <- httr2::resp_body_json(resp)
-  resp$results |>
-    tibble::enframe(name = NULL) |>
-    tidyr::unnest_wider("value")
 }
