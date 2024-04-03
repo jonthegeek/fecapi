@@ -3,21 +3,33 @@
 #' Generate a request to an OpenFEC endpoint.
 #'
 #' @inheritParams nectar::call_api
-#' @param api_key An API key provided by the FEC. Get your key at
-#'   https://api.open.fec.gov/developers/. We recommend storing the key in your
-#'   `.Renviron` file as `FEC_API_KEY`. The default value, "DEMO_KEY", allows
-#'   for limited experimentation.
+#' @inheritParams rlang::args_error_context
+#' @param pagination The pagination scheme to use. Currently either "none" (the
+#'   default) or "basic" (a scheme that uses `per_page` and returned `pages`
+#'   information). If an endpoint has a `per_page` argument, use "basic".
+#' @param max_results The maximum number of results to return.
+#' @param api_key An API key provided by the API provider. This key is not
+#'   clearly documented in the API description. Check the API documentation for
+#'   details.
 #'
-#' @return The response from the endpoint.
+#' @return A tibble with the results of the API call.
 #' @export
 fec_call_api <- function(path,
-                         query = NULL,
+                         query = list(),
                          body = NULL,
                          method = NULL,
+                         pagination = c("none", "basic"),
+                         max_results = 100,
+                         max_reqs = Inf,
                          api_key = Sys.getenv(
                            "FEC_API_KEY",
                            unset = "DEMO_KEY"
-                         )) {
+                         ),
+                         call = rlang::caller_env()) {
+  next_req <- .choose_pagination_fn(pagination, call = call)
+  query$per_page <- min(100, max_results)
+  max_reqs <- min(max_reqs, max_results / query$per_page)
+
   nectar::call_api(
     base_url = "https://api.open.fec.gov/v1",
     path = path,
@@ -25,15 +37,10 @@ fec_call_api <- function(path,
     body = body,
     method = method,
     user_agent = "fecapi (https://github.com/jonthegeek/fecapi)",
-    security_fn = fec_security,
+    security_fn = .security,
     security_args = list(api_key = api_key),
-    response_parser = fec_parse_response
+    response_parser = .response_parser,
+    next_req = next_req,
+    max_reqs = max_reqs
   )
-}
-
-fec_parse_response <- function(resp) {
-  resp <- httr2::resp_body_json(resp)
-  resp$results |>
-    tibble::enframe(name = NULL) |>
-    tidyr::unnest_wider("value")
 }

@@ -6,10 +6,14 @@
 \usage{
 fec_call_api(
   path,
-  query = NULL,
+  query = list(),
   body = NULL,
   method = NULL,
-  api_key = Sys.getenv("FEC_API_KEY", unset = "DEMO_KEY")
+  pagination = c("none", "basic"),
+  max_results = 100,
+  max_reqs = Inf,
+  api_key = Sys.getenv("FEC_API_KEY", unset = "DEMO_KEY"),
+  call = rlang::caller_env()
 )
 }
 \arguments{
@@ -26,13 +30,26 @@ class "fs_path" to indicate that it is a path.}
 \item{method}{If the method is something other than GET or POST, supply it.
 Case is ignored.}
 
-\item{api_key}{An API key provided by the FEC. Get your key at
-https://api.open.fec.gov/developers/. We recommend storing the key in your
-\code{.Renviron} file as \code{FEC_API_KEY}. The default value, "DEMO_KEY", allows
-for limited experimentation.}
+\item{pagination}{The pagination scheme to use. Currently either "none" (the
+default) or "basic" (a scheme that uses \code{per_page} and returned \code{pages}
+information). If an endpoint has a \code{per_page} argument, use "basic".}
+
+\item{max_results}{The maximum number of results to return.}
+
+\item{max_reqs}{The maximum number of requests to perform. Use \code{Inf} to
+perform all requests until \code{next_req()} returns \code{NULL}.}
+
+\item{api_key}{An API key provided by the API provider. This key is not
+clearly documented in the API description. Check the API documentation for
+details.}
+
+\item{call}{The execution environment of a currently
+running function, e.g. \code{caller_env()}. The function will be
+mentioned in error messages as the source of the error. See the
+\code{call} argument of \code{\link[rlang:abort]{abort()}} for more information.}
 }
 \value{
-The response from the endpoint.
+A tibble with the results of the API call.
 }
 \description{
 Generate a request to an OpenFEC endpoint.

@@ -6,14 +6,16 @@
 # pass the same parameter in a header, possibly with a different name. Consult
 # the text description of authentication in your API documentation.
 
-fec_security <- function(req, api_key) {
-  req <- fec_security_api_key_header_auth(req, api_key)
+.security <- function(req, api_key = NULL) {
+  if (!is.null(api_key)) {
+    req <- .security_api_key_header_auth(req, api_key)
+  }
   return(req)
 }
 
 # An API key provided by the API provider. This key is not clearly documented in
 # the API description. Check the API documentation for details.
-fec_security_api_key_header_auth <- function(req, api_key) {
+.security_api_key_header_auth <- function(req, api_key) {
   nectar::security_api_key(
     req,
     location = "header",
