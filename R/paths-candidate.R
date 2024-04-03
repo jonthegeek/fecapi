@@ -99,7 +99,8 @@ fec_get_candidate_candidate_id <- function(office,
       sort_null_only = sort_null_only,
       incumbent_challenge = incumbent_challenge,
       party = party
-    )
+    ),
+    pagination = "basic"
   )
 }
 
@@ -230,6 +231,11 @@ fec_get_candidate_candidate_id_totals <- function(sort_nulls_last, cycle, page, 
 #' @param party Three-letter code for the party affiliated with a candidate or
 #'   committee. For example, DEM for Democratic Party and REP for Republican
 #'   Party.
+#' @param sort Provide a field to sort by. Use `-` for descending order.
+#' @param sort_hide_null Hide null values on sorted column(s).
+#' @param sort_null_only Toggle that filters out all rows having sort column
+#'   that is non-null
+#' @param sort_nulls_last Toggle that sorts null values last
 #' @return BKTODO: Return descriptions are not yet implemented in beekeeper
 #' @export
 fec_get_candidates <- function(office = NULL,
@@ -248,6 +254,11 @@ fec_get_candidates <- function(office = NULL,
                                incumbent_challenge = NULL,
                                max_first_file_date = NULL,
                                party = NULL,
+                               sort = NULL,
+                               sort_hide_null = NULL,
+                               sort_null_only = NULL,
+                               sort_nulls_last = NULL,
+                               max_results = 100,
                                api_key = Sys.getenv(
                                  "FEC_API_KEY",
                                  unset = "DEMO_KEY"
@@ -256,6 +267,7 @@ fec_get_candidates <- function(office = NULL,
     path = "/candidates/",
     method = "get",
     api_key = api_key,
+    max_results = max_results,
     query = list(
       office = office,
       candidate_status = candidate_status,
@@ -268,13 +280,15 @@ fec_get_candidates <- function(office = NULL,
       federal_funds_flag = federal_funds_flag,
       candidate_id = candidate_id,
       min_first_file_date = min_first_file_date,
-      page = page,
-      sort = sort,
       has_raised_funds = has_raised_funds,
       election_year = election_year,
       incumbent_challenge = incumbent_challenge,
       max_first_file_date = max_first_file_date,
-      party = party
+      party = party,
+      sort = sort,
+      sort_hide_null = sort_hide_null,
+      sort_null_only = sort_null_only,
+      sort_nulls_last = sort_nulls_last
     )
   )
 }

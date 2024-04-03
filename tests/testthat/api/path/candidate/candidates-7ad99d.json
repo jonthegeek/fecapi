@@ -1,0 +1,3406 @@
+{
+    "api_version": "1.0",
+    "pagination": {
+        "count": 49973,
+        "is_count_exact": true,
+        "page": 1,
+        "pages": 500,
+        "per_page": 100
+    },
+    "results": [
+        {
+            "active_through": 2024,
+            "candidate_id": "P40014052",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-06-24",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-06-24",
+            "last_file_date": "2023-06-24",
+            "load_date": "2023-07-10T21:05:09",
+            "name": "212 N HALF  W. JOHN, RODNEY HOWARD MR.",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40013393",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-06-04",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-06-04",
+            "last_file_date": "2023-06-04",
+            "load_date": "2023-06-08T21:05:05",
+            "name": "375 ROB ROY DR, DAVID J SR SR",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40013401",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-06-04",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-06-04",
+            "last_file_date": "2023-06-04",
+            "load_date": "2023-06-08T21:05:05",
+            "name": "375 ROB ROY DR, DAVID J SR SR",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "P00011569",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2020,
+                2022
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-04-23",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2019-04-23",
+            "last_file_date": "2019-04-23",
+            "load_date": "2021-12-08T06:50:50",
+            "name": "753, JO",
+            "office": "P",
+            "office_full": "President",
+            "party": "NNE",
+            "party_full": "NONE",
+            "state": "US"
+        },
+        {
+            "active_through": 2004,
+            "candidate_id": "P40002172",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2002,
+                2004
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2004
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2002-01-30",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2002-01-30",
+            "last_file_date": "2002-01-30",
+            "load_date": "2002-04-12T00:00:00",
+            "name": "AABBATTE, MICHAEL THOMAS WITORT",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2CO07170",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "07",
+            "district_number": 7,
+            "election_districts": [
+                "07"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-12-27",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2022-08-10",
+            "last_file_date": "2022-08-10",
+            "load_date": "2023-03-09T10:16:03",
+            "name": "AADLAND, ERIK",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "CO"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "S2CO00175",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-06-04",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2021-06-04",
+            "last_file_date": "2021-06-04",
+            "load_date": "2023-03-09T10:16:03",
+            "name": "AADLAND, ERIK",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "CO"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2UT03280",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2022
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2020-03-24",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-03-21",
+            "last_file_date": "2022-03-21",
+            "load_date": "2022-04-13T21:10:09",
+            "name": "AALDERS, TIM",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "UT"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "S2UT00229",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2012,
+                2014,
+                2016,
+                2018,
+                2020
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00",
+                "00"
+            ],
+            "election_years": [
+                2012,
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2012-02-08",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2018-04-23",
+            "last_file_date": "2018-04-23",
+            "load_date": "2019-03-27T16:02:41",
+            "name": "AALDERS, TIMOTHY NOEL",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "CON",
+            "party_full": "CONSTITUTION PARTY",
+            "state": "UT"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "H0TX22260",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2020
+            ],
+            "district": "22",
+            "district_number": 22,
+            "election_districts": [
+                "22"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-10-17",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2019-10-17",
+            "last_file_date": "2019-10-17",
+            "load_date": "2020-03-18T21:13:37",
+            "name": "AALOORI, BANGAR REDDY",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 1978,
+            "candidate_id": "H6PA16106",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1976,
+                1978,
+                1980
+            ],
+            "district": "16",
+            "district_number": 16,
+            "election_districts": [
+                "16",
+                "16"
+            ],
+            "election_years": [
+                1976,
+                1978
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1976-04-12",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": null,
+            "incumbent_challenge_full": null,
+            "last_f2_date": "1978-07-05",
+            "last_file_date": "1978-07-05",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "AAMODT, NORMAN O.",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "PA"
+        },
+        {
+            "active_through": 2012,
+            "candidate_id": "H2CA01110",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2012,
+                2014,
+                2016
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01"
+            ],
+            "election_years": [
+                2012
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2012-02-22",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2012-02-22",
+            "last_file_date": "2012-02-22",
+            "load_date": "2013-04-26T09:04:30",
+            "name": "AANESTAD, SAMUEL",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "H8CO06237",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2018
+            ],
+            "district": "06",
+            "district_number": 6,
+            "election_districts": [
+                "06"
+            ],
+            "election_years": [
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2017-04-26",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2017-04-26",
+            "last_file_date": "2017-04-26",
+            "load_date": "2017-08-01T20:57:28",
+            "name": "AARESTAD, DAVID",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "CO"
+        },
+        {
+            "active_through": 1998,
+            "candidate_id": "H8CA18053",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1998
+            ],
+            "district": "18",
+            "district_number": 18,
+            "election_districts": [
+                "18"
+            ],
+            "election_years": [
+                1998
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-04-03T00:00:00",
+            "name": "AAROE, KEN",
+            "office": "H",
+            "office_full": "House",
+            "party": "LIB",
+            "party_full": "LIBERTARIAN PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 2008,
+            "candidate_id": "P80002926",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2006,
+                2008,
+                2010,
+                2012,
+                2014,
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2008
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2005-10-12",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2007-03-13",
+            "last_file_date": "2007-03-13",
+            "load_date": "2016-11-17T06:10:48",
+            "name": "AARON, LAURA DAVIS",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "H0FL21102",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2020
+            ],
+            "district": "21",
+            "district_number": 21,
+            "election_districts": [
+                "21"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-11-20",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2019-11-20",
+            "last_file_date": "2019-11-20",
+            "load_date": "2019-11-25T21:06:05",
+            "name": "AARONS, ADAM",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "FL"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H4OR05312",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2024
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-07-24",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-07-24",
+            "last_file_date": "2023-07-24",
+            "load_date": "2023-10-16T21:03:02",
+            "name": "AASEN, ANDREW J",
+            "office": "H",
+            "office_full": "House",
+            "party": "NON",
+            "party_full": "NON-PARTY",
+            "state": "OR"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H2CA30291",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "32",
+            "district_number": 32,
+            "election_districts": [
+                "32",
+                "32"
+            ],
+            "election_years": [
+                2022,
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-01-16",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-07-15",
+            "last_file_date": "2022-07-15",
+            "load_date": "2023-01-12T22:24:01",
+            "name": "AAZAMI, SHERVIN",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60016326",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2015-09-30",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2015-09-30",
+            "last_file_date": "2015-09-30",
+            "load_date": "2016-11-17T06:10:49",
+            "name": "ABABIY, JON",
+            "office": "P",
+            "office_full": "President",
+            "party": "PAF",
+            "party_full": "PEACE AND FREEDOM",
+            "state": "US"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2MN07162",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "07",
+            "district_number": 7,
+            "election_districts": [
+                "07"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2022-06-06",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-06-06",
+            "last_file_date": "2022-06-06",
+            "load_date": "2023-03-09T10:16:03",
+            "name": "ABAHSAIN, JILL",
+            "office": "H",
+            "office_full": "House",
+            "party": "DFL",
+            "party_full": "DEMOCRATIC-FARMER-LABOR",
+            "state": "MN"
+        },
+        {
+            "active_through": 2000,
+            "candidate_id": "H0MA01024",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2000,
+                2002,
+                2004
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01"
+            ],
+            "election_years": [
+                2000
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2000-02-02",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2000-02-02",
+            "last_file_date": "2000-02-02",
+            "load_date": "2002-04-12T00:00:00",
+            "name": "ABAIR, PETER JON",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "MA"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40008203",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2022-06-16",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-06-16",
+            "last_file_date": "2022-06-16",
+            "load_date": "2023-01-12T22:24:01",
+            "name": "ABAIR, REBECCA GAIL MS.",
+            "office": "P",
+            "office_full": "President",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40009169",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2022-10-10",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-10-10",
+            "last_file_date": "2022-10-10",
+            "load_date": "2023-01-12T22:24:01",
+            "name": "ABAIR, REBECCA GAIL MS. PHD",
+            "office": "P",
+            "office_full": "President",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2012,
+            "candidate_id": "H2MT00039",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2012,
+                2014,
+                2016,
+                2018
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2012
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2011-05-25",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2011-10-03",
+            "last_file_date": "2011-10-03",
+            "load_date": "2011-10-04T23:20:42",
+            "name": "ABARR, JOHN ALLEN",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "MT"
+        },
+        {
+            "active_through": 2008,
+            "candidate_id": "H6NJ05155",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2006,
+                2008
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05",
+                "05"
+            ],
+            "election_years": [
+                2006,
+                2008
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2006-03-28",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2007-06-05",
+            "last_file_date": "2007-06-05",
+            "load_date": "2009-04-29T00:00:00",
+            "name": "ABATE, CAMILLE M",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "NJ"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "H6AZ03245",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016,
+                2018
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03",
+                "03"
+            ],
+            "election_years": [
+                2016,
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2017-04-10",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2017-04-10",
+            "last_file_date": "2017-04-10",
+            "load_date": "2017-04-19T21:05:08",
+            "name": "ABATECOLA, BILL",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "AZ"
+        },
+        {
+            "active_through": 1992,
+            "candidate_id": "H2NJ12036",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1992,
+                1994,
+                1996,
+                1998
+            ],
+            "district": "12",
+            "district_number": 12,
+            "election_districts": [
+                "12"
+            ],
+            "election_years": [
+                1992
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1992-04-15",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1992-04-15",
+            "last_file_date": "1992-04-15",
+            "load_date": "2002-04-03T00:00:00",
+            "name": "ABATE, FRANK G",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "NJ"
+        },
+        {
+            "active_through": 1990,
+            "candidate_id": "H0IA03071",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                1990
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03"
+            ],
+            "election_years": [
+                1990
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1990-05-01",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1990-05-01",
+            "last_file_date": "1990-05-01",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABBAS, JEFFREY LYN",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "IA"
+        },
+        {
+            "active_through": 1998,
+            "candidate_id": "H8CT03042",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1998
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03"
+            ],
+            "election_years": [
+                1998
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-04-03T00:00:00",
+            "name": "ABBATIELLO, KRISTEN J",
+            "office": "H",
+            "office_full": "House",
+            "party": "OTH",
+            "party_full": "OTHER",
+            "state": "CT"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H0TX36039",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2020,
+                2024
+            ],
+            "district": "38",
+            "district_number": 38,
+            "election_districts": [
+                null,
+                "38"
+            ],
+            "election_years": [
+                2020,
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2024-03-05T21:00:08",
+            "name": "ABBEY, CHAD",
+            "office": "H",
+            "office_full": "House",
+            "party": "LIB",
+            "party_full": "LIBERTARIAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H4CA32152",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "32",
+            "district_number": 32,
+            "election_districts": [
+                "32"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-12-03",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2024-02-07",
+            "last_file_date": "2024-02-07",
+            "load_date": "2024-02-08T21:02:32",
+            "name": "ABBITT, DAVE",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 1994,
+            "candidate_id": "H4TX15043",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                1994
+            ],
+            "district": "15",
+            "district_number": 15,
+            "election_districts": [
+                "15"
+            ],
+            "election_years": [
+                1994
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1994-01-14",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1994-01-14",
+            "last_file_date": "1994-01-14",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABBOTT, BONNIE",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60005840",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2015-02-26",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2015-02-26",
+            "last_file_date": "2015-02-26",
+            "load_date": "2016-11-17T06:10:49",
+            "name": "ABBOTT, GIFFORD WHEELER JR",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        },
+        {
+            "active_through": 1996,
+            "candidate_id": "H6SD00077",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1996,
+                1998
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                1996
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1995-10-02",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1995-10-02",
+            "last_file_date": "1995-10-02",
+            "load_date": "2002-04-03T00:00:00",
+            "name": "ABBOTT, JAMES W",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "SD"
+        },
+        {
+            "active_through": 1988,
+            "candidate_id": "S6CA00345",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1986,
+                1988
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00",
+                "00"
+            ],
+            "election_years": [
+                1986,
+                1988
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1988-05-16",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1988-08-29",
+            "last_file_date": "1988-08-29",
+            "load_date": "2005-05-26T00:00:00",
+            "name": "ABBOTT, JOHN HANCOCK",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 1992,
+            "candidate_id": "P80002579",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1988,
+                1990,
+                1992,
+                1994,
+                1996,
+                1998
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00",
+                "00"
+            ],
+            "election_years": [
+                1988,
+                1992
+            ],
+            "federal_funds_flag": true,
+            "first_file_date": "1988-08-29",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1992-06-16",
+            "last_file_date": "1992-06-16",
+            "load_date": "2002-04-03T00:00:00",
+            "name": "ABBOTT, JOHN HANCOCK",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "S2VT00359",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022
+            ],
+            "district": null,
+            "district_number": null,
+            "election_districts": [
+                null
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2022-10-26T21:15:05",
+            "name": "ABBOTT, MARTHA",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "OTH",
+            "party_full": "OTHER",
+            "state": "VT"
+        },
+        {
+            "active_through": 2004,
+            "candidate_id": "H2TX18082",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2002,
+                2004
+            ],
+            "district": "18",
+            "district_number": 18,
+            "election_districts": [
+                "18",
+                "18"
+            ],
+            "election_years": [
+                2002,
+                2004
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2002-03-12",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2002-03-12",
+            "last_file_date": "2002-03-12",
+            "load_date": "2005-03-02T00:00:00",
+            "name": "ABBOTT, PHILLIP J.",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 2000,
+            "candidate_id": "H4KY03095",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1994,
+                1996,
+                2000
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03",
+                "03",
+                "03"
+            ],
+            "election_years": [
+                1994,
+                1996,
+                2000
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1994-05-11",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2000-05-25",
+            "last_file_date": "2000-05-25",
+            "load_date": "2002-04-07T00:00:00",
+            "name": "ABBOTT, RAYMOND H",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "KY"
+        },
+        {
+            "active_through": 2014,
+            "candidate_id": "H4MI03201",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2012,
+                2014
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03"
+            ],
+            "election_years": [
+                2014
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2012-11-16",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2012-11-16",
+            "last_file_date": "2012-11-16",
+            "load_date": "2013-01-03T22:17:08",
+            "name": "ABBOTT, RICHARD ALLEN IV",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "MI"
+        },
+        {
+            "active_through": 2004,
+            "candidate_id": "H2IN04101",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2002,
+                2004,
+                2006,
+                2008
+            ],
+            "district": "04",
+            "district_number": 4,
+            "election_districts": [
+                "04",
+                "04"
+            ],
+            "election_years": [
+                2002,
+                2004
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2002-06-05",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2004-01-22",
+            "last_file_date": "2004-01-22",
+            "load_date": "2004-01-29T00:00:00",
+            "name": "ABBOTT, WILLIAM ANTHONY",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "IN"
+        },
+        {
+            "active_through": 1988,
+            "candidate_id": "H8NE02089",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1988,
+                1990,
+                1992,
+                1994,
+                1996
+            ],
+            "district": "02",
+            "district_number": 2,
+            "election_districts": [
+                "02"
+            ],
+            "election_years": [
+                1988
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1987-11-09",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1987-11-09",
+            "last_file_date": "1987-11-09",
+            "load_date": "2002-04-02T00:00:00",
+            "name": "ABBOUD, CHRIS",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "NE"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "S8AZ00122",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2018,
+                2020
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2017-04-11",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2017-04-11",
+            "last_file_date": "2017-04-11",
+            "load_date": "2019-03-27T16:02:41",
+            "name": "ABBOUD, DEEDRA",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "AZ"
+        },
+        {
+            "active_through": 2008,
+            "candidate_id": "H8IL16062",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2008,
+                2010,
+                2012
+            ],
+            "district": "16",
+            "district_number": 16,
+            "election_districts": [
+                "16"
+            ],
+            "election_years": [
+                2008
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2007-08-03",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2007-08-03",
+            "last_file_date": "2007-08-03",
+            "load_date": "2008-01-07T21:45:39",
+            "name": "ABBOUD, ROBERT",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "IL"
+        },
+        {
+            "active_through": 2006,
+            "candidate_id": "H6OH13224",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2006
+            ],
+            "district": "13",
+            "district_number": 13,
+            "election_districts": [
+                "13"
+            ],
+            "election_years": [
+                2006
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2006-11-28",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": null,
+            "last_file_date": "2007-02-12",
+            "load_date": "2006-07-21T00:00:00",
+            "name": "ABBOUD, RUTH NADER",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "OH"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "H0VA10152",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2018,
+                2020,
+                2022,
+                2024
+            ],
+            "district": "10",
+            "district_number": 10,
+            "election_districts": [
+                "10"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2018-11-10",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2018-11-10",
+            "last_file_date": "2018-11-28",
+            "load_date": "2019-01-28T21:05:11",
+            "name": "ABDALLAH, UNIT89487",
+            "office": "H",
+            "office_full": "House",
+            "party": "W",
+            "party_full": "WRITE-IN",
+            "state": "VA"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2NY12197",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "12",
+            "district_number": 12,
+            "election_districts": [
+                "12"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-04-13",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2021-04-13",
+            "last_file_date": "2021-04-13",
+            "load_date": "2023-03-09T10:16:03",
+            "name": "ABDELHAMID, RANA",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "NY"
+        },
+        {
+            "active_through": 1980,
+            "candidate_id": "H0NY39012",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1980,
+                1982,
+                1984
+            ],
+            "district": "39",
+            "district_number": 39,
+            "election_districts": [
+                "39"
+            ],
+            "election_years": [
+                1980
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1980-05-22",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": null,
+            "incumbent_challenge_full": null,
+            "last_f2_date": "1980-05-22",
+            "last_file_date": "1980-05-22",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABDELLA, JAMES",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "NY"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2MN05174",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-09-24",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2021-09-24",
+            "last_file_date": "2021-09-24",
+            "load_date": "2023-03-09T10:16:03",
+            "name": "ABDIRAHMAN, SHUKRI ABDULLAHI MS.",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "MN"
+        },
+        {
+            "active_through": 1986,
+            "candidate_id": "S0SD00054",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1980,
+                1982,
+                1984,
+                1986,
+                1988,
+                1990,
+                1992,
+                1994,
+                1996,
+                1998,
+                2000,
+                2002,
+                2004
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00",
+                "00"
+            ],
+            "election_years": [
+                1980,
+                1986
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1980-02-15",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1986-09-09",
+            "last_file_date": "1987-02-19",
+            "load_date": "2002-04-12T00:00:00",
+            "name": "ABDNOR, JAMES",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "SD"
+        },
+        {
+            "active_through": 1980,
+            "candidate_id": "H6SD02024",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1976,
+                1978,
+                1980
+            ],
+            "district": "02",
+            "district_number": 2,
+            "election_districts": [
+                "02",
+                "02",
+                "02"
+            ],
+            "election_years": [
+                1976,
+                1978,
+                1980
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1976-01-26",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "I",
+            "incumbent_challenge_full": "Incumbent",
+            "last_f2_date": "1980-02-27",
+            "last_file_date": "1980-02-27",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABDNOR, JAMES",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "SD"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "H8MN05163",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2018
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05"
+            ],
+            "election_years": [
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2017-01-18",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2018-07-09",
+            "last_file_date": "2018-07-09",
+            "load_date": "2018-08-07T21:19:28",
+            "name": "ABDULAHI, JAMAL MR.",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "MN"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60012838",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2015-08-25",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2015-08-25",
+            "last_file_date": "2015-08-25",
+            "load_date": "2016-11-17T06:10:49",
+            "name": "ABDULHAMID, AMMAR",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40013088",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-05-25",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-05-25",
+            "last_file_date": "2023-05-25",
+            "load_date": "2023-06-08T21:05:05",
+            "name": "ABDULLAHI, FUAD",
+            "office": "P",
+            "office_full": "President",
+            "party": "AIP",
+            "party_full": "AMERICAN INDEPENDENT PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2OH09197",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022
+            ],
+            "district": "09",
+            "district_number": 9,
+            "election_districts": [
+                "09"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2022-02-22",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-02-22",
+            "last_file_date": "2022-02-22",
+            "load_date": "2022-03-14T21:09:28",
+            "name": "ABDULLAHI, MUNIRA YASIN",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "OH"
+        },
+        {
+            "active_through": 1984,
+            "candidate_id": "H4CA29018",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1984
+            ],
+            "district": "29",
+            "district_number": 29,
+            "election_districts": [
+                "29"
+            ],
+            "election_years": [
+                1984
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1983-12-12",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": null,
+            "incumbent_challenge_full": null,
+            "last_f2_date": "1983-12-12",
+            "last_file_date": "1983-12-12",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABDULLAH, MUHAMMAD",
+            "office": "H",
+            "office_full": "House",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "CA"
+        },
+        {
+            "active_through": 1989,
+            "candidate_id": "H0TX18136",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1990,
+                1992,
+                1994,
+                1996
+            ],
+            "district": "18",
+            "district_number": 18,
+            "election_districts": [
+                "18"
+            ],
+            "election_years": [
+                1989
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1989-10-10",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1989-10-10",
+            "last_file_date": "1989-10-10",
+            "load_date": "2002-04-02T00:00:00",
+            "name": "ABDUL-RAHMAN, SOLOMON",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H0CA50129",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2020,
+                2022
+            ],
+            "district": "50",
+            "district_number": 50,
+            "election_districts": [
+                "50",
+                "50"
+            ],
+            "election_years": [
+                2020,
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-07-02",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2019-10-14",
+            "last_file_date": "2019-10-14",
+            "load_date": "2021-10-17T01:37:37",
+            "name": "ABED, SAM",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 1980,
+            "candidate_id": "H0KS02048",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1980
+            ],
+            "district": "02",
+            "district_number": 2,
+            "election_districts": [
+                "02"
+            ],
+            "election_years": [
+                1980
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": null,
+            "incumbent_challenge_full": null,
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABELDT, LARRY",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "KS"
+        },
+        {
+            "active_through": 2014,
+            "candidate_id": "S4MN00353",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2014,
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2014
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2013-07-08",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2013-07-08",
+            "last_file_date": "2013-07-08",
+            "load_date": "2016-11-17T06:10:49",
+            "name": "ABELER, JAMES J",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "MN"
+        },
+        {
+            "active_through": 1992,
+            "candidate_id": "H2CA09022",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1992
+            ],
+            "district": "09",
+            "district_number": 9,
+            "election_districts": [
+                "09"
+            ],
+            "election_years": [
+                1992
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABEL, HELEN R",
+            "office": "H",
+            "office_full": "House",
+            "party": "PAF",
+            "party_full": "PEACE AND FREEDOM",
+            "state": "CA"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40014888",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-08-14",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-08-14",
+            "last_file_date": "2023-08-23",
+            "load_date": "2023-08-18T21:04:10",
+            "name": "ABEL, JESSICA L",
+            "office": "P",
+            "office_full": "President",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 1992,
+            "candidate_id": "H2ID01069",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1992
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01"
+            ],
+            "election_years": [
+                1992
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABEL, JOHN",
+            "office": "H",
+            "office_full": "House",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "ID"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "H8GA06377",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2018,
+                2020
+            ],
+            "district": "06",
+            "district_number": 6,
+            "election_districts": [
+                "06"
+            ],
+            "election_years": [
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2017-10-20",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2017-10-20",
+            "last_file_date": "2017-10-20",
+            "load_date": "2019-03-27T16:02:41",
+            "name": "ABEL, KEVIN",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "GA"
+        },
+        {
+            "active_through": 1982,
+            "candidate_id": "H2TX23033",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1982
+            ],
+            "district": "23",
+            "district_number": 23,
+            "election_districts": [
+                "23"
+            ],
+            "election_years": [
+                1982
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": null,
+            "incumbent_challenge_full": null,
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABELL, PARKER",
+            "office": "H",
+            "office_full": "House",
+            "party": "LIB",
+            "party_full": "LIBERTARIAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 1984,
+            "candidate_id": "H4TX23039",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1984,
+                1986,
+                1988,
+                1990,
+                1992
+            ],
+            "district": "23",
+            "district_number": 23,
+            "election_districts": [
+                "23"
+            ],
+            "election_years": [
+                1984
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1984-02-09",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1984-02-21",
+            "last_file_date": "1984-02-21",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABELL, PARKER E",
+            "office": "H",
+            "office_full": "House",
+            "party": "LIB",
+            "party_full": "LIBERTARIAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 2000,
+            "candidate_id": "S0MI00155",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2000,
+                2002
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2000
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2000-08-28",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2000-08-28",
+            "last_file_date": "2000-08-28",
+            "load_date": "2002-04-12T00:00:00",
+            "name": "ABEL, MATTHEW R",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "UNK",
+            "party_full": "UNKNOWN",
+            "state": "MI"
+        },
+        {
+            "active_through": 2006,
+            "candidate_id": "H6MI09179",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2006
+            ],
+            "district": "09",
+            "district_number": 9,
+            "election_districts": [
+                "09"
+            ],
+            "election_years": [
+                2006
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2006-09-19T00:00:00",
+            "name": "ABEL, MATTHEW R.",
+            "office": "H",
+            "office_full": "House",
+            "party": "GRE",
+            "party_full": "GREEN PARTY",
+            "state": "MI"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2NY04251",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "04",
+            "district_number": 4,
+            "election_districts": [
+                "04"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2022-02-25",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2022-02-25",
+            "last_file_date": "2022-02-25",
+            "load_date": "2022-03-14T21:09:28",
+            "name": "ABELOVE, JASON L",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "NY"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H4TX31057",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2024
+            ],
+            "district": "31",
+            "district_number": 31,
+            "election_districts": [
+                "31"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-04-19",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-04-19",
+            "last_file_date": "2023-04-19",
+            "load_date": "2024-01-30T21:02:09",
+            "name": "ABEL, WILLIAM",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "TX"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "H0FL05162",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2020
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-12-17",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2019-12-17",
+            "last_file_date": "2019-12-17",
+            "load_date": "2019-12-30T21:08:41",
+            "name": "ABENCHUCHAN, ISAIAH",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "FL"
+        },
+        {
+            "active_through": 2018,
+            "candidate_id": "H8ND00120",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2018,
+                2020,
+                2022
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2018
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2018-05-17T21:10:29",
+            "name": "ABENTROTH, TIFFANY",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "ND"
+        },
+        {
+            "active_through": 2010,
+            "candidate_id": "H6HI01121",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1986,
+                1988,
+                1990,
+                1992,
+                1994,
+                1996,
+                1998,
+                2000,
+                2002,
+                2004,
+                2006,
+                2008,
+                2010,
+                2012
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01",
+                "01",
+                "01",
+                "01",
+                "01",
+                "01",
+                "01",
+                "01",
+                "01",
+                "01",
+                "01",
+                "01",
+                "01"
+            ],
+            "election_years": [
+                1986,
+                1988,
+                1990,
+                1992,
+                1994,
+                1996,
+                1998,
+                2000,
+                2002,
+                2004,
+                2006,
+                2008,
+                2010
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1986-01-31",
+            "has_raised_funds": true,
+            "inactive_election_years": [
+                2010
+            ],
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2008-11-05",
+            "last_file_date": "2008-11-05",
+            "load_date": "2011-02-24T10:53:11",
+            "name": "ABERCROMBIE, NEIL",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "HI"
+        },
+        {
+            "active_through": 2008,
+            "candidate_id": "H8IL08093",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2008
+            ],
+            "district": "08",
+            "district_number": 8,
+            "election_districts": [
+                "08"
+            ],
+            "election_years": [
+                2008
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2007-12-10T00:00:00",
+            "name": "ABERNATHY, IAIN",
+            "office": "H",
+            "office_full": "House",
+            "party": "OTH",
+            "party_full": "OTHER",
+            "state": "IL"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "H0IN05268",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2020
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05"
+            ],
+            "election_years": [
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2019-10-07",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2019-10-07",
+            "last_file_date": "2019-10-07",
+            "load_date": "2020-02-24T21:12:33",
+            "name": "ABERNATHY, KENT",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "IN"
+        },
+        {
+            "active_through": 1992,
+            "candidate_id": "H2MO03043",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1992
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03"
+            ],
+            "election_years": [
+                1992
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1992-07-06",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": "1992-07-06",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABERNATHY, NED L.",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "MO"
+        },
+        {
+            "active_through": 1977,
+            "candidate_id": "H6GA05134",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1978,
+                1980,
+                1982,
+                1984
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05"
+            ],
+            "election_years": [
+                1977
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1977-02-11",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1977-02-11",
+            "last_file_date": "1980-07-27",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABERNATHY, RALPH DAVID",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "GA"
+        },
+        {
+            "active_through": 1984,
+            "candidate_id": "H4AR01010",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1984
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01"
+            ],
+            "election_years": [
+                1984
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": null,
+            "incumbent_challenge_full": null,
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABERNATHY, STEVE",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "AR"
+        },
+        {
+            "active_through": 1984,
+            "candidate_id": "H4PA20012",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                1984
+            ],
+            "district": "20",
+            "district_number": 20,
+            "election_districts": [
+                "20"
+            ],
+            "election_years": [
+                1984
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1984-02-29",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": null,
+            "incumbent_challenge_full": null,
+            "last_f2_date": "1984-02-29",
+            "last_file_date": "1984-02-29",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABER, ROBERT M",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "PA"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H4OH15075",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2024
+            ],
+            "district": "15",
+            "district_number": 15,
+            "election_districts": [
+                "15"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-10-13",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2023-10-13",
+            "last_file_date": "2023-10-13",
+            "load_date": "2023-10-29T21:00:13",
+            "name": "ABID, ZERQA",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "OH"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2HI01146",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2022-08-15T21:09:17",
+            "name": "ABKIN, STEVEN L.",
+            "office": "H",
+            "office_full": "House",
+            "party": "N",
+            "party_full": "NONPARTISAN",
+            "state": "HI"
+        },
+        {
+            "active_through": 1988,
+            "candidate_id": "H8CT04131",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1988
+            ],
+            "district": "04",
+            "district_number": 4,
+            "election_districts": [
+                "04"
+            ],
+            "election_years": [
+                1988
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABLE, ALAN",
+            "office": "H",
+            "office_full": "House",
+            "party": "UNK",
+            "party_full": "UNKNOWN",
+            "state": "CT"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60014461",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016,
+                2018
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2015-09-02",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2015-09-02",
+            "last_file_date": "2015-09-02",
+            "load_date": "2018-02-17T09:16:20",
+            "name": "ABLEIDINGER, PHILL ALEXANDER",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2014,
+            "candidate_id": "S4LA00156",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2014,
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2014
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2014-09-12",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2014-09-12",
+            "last_file_date": "2014-09-12",
+            "load_date": "2016-11-17T06:10:49",
+            "name": "ABLES, MURIEL WAYNE",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "LA"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60020690",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016,
+                2018
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2016-03-22",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2016-07-18",
+            "last_file_date": "2016-07-18",
+            "load_date": "2018-02-17T09:16:20",
+            "name": "ABLO, ANDY",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        },
+        {
+            "active_through": 2004,
+            "candidate_id": "H4KY06122",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2004
+            ],
+            "district": "06",
+            "district_number": 6,
+            "election_districts": [
+                "06"
+            ],
+            "election_years": [
+                2004
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2004-09-16T00:00:00",
+            "name": "ABNER, STACY",
+            "office": "H",
+            "office_full": "House",
+            "party": "CST",
+            "party_full": "CONSTITUTIONAL",
+            "state": "KY"
+        },
+        {
+            "active_through": 2023,
+            "candidate_id": "H4RI01281",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2024
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01"
+            ],
+            "election_years": [
+                2023
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-04-27",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2023-04-27",
+            "last_file_date": "2023-04-27",
+            "load_date": "2023-07-13T21:06:27",
+            "name": "ABNEY, MARVIN L.",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "RI"
+        },
+        {
+            "active_through": 2012,
+            "candidate_id": "H2AZ02279",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2012,
+                2014
+            ],
+            "district": "02",
+            "district_number": 2,
+            "election_districts": [
+                "02"
+            ],
+            "election_years": [
+                2012
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2012-02-15",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2012-02-15",
+            "last_file_date": "2012-02-15",
+            "load_date": "2013-04-26T09:04:30",
+            "name": "ABOUD, PAULA ANN",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "AZ"
+        },
+        {
+            "active_through": 1994,
+            "candidate_id": "H4FL22029",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1994
+            ],
+            "district": "22",
+            "district_number": 22,
+            "election_districts": [
+                "22"
+            ],
+            "election_years": [
+                1994
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1994-03-28",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1994-03-28",
+            "last_file_date": "1994-03-28",
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABOUMRAD, ARTHUR G MR",
+            "office": "H",
+            "office_full": "House",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "FL"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60005766",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016,
+                2018,
+                2020,
+                2022,
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2015-01-29",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2016-07-08",
+            "last_file_date": "2016-07-08",
+            "load_date": "2021-12-08T06:50:50",
+            "name": "ABOVE, ZERO, NONE OF THE",
+            "office": "P",
+            "office_full": "President",
+            "party": "W",
+            "party_full": "WRITE-IN",
+            "state": "US"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60022233",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2016-11-17T06:10:49",
+            "name": "ABOZAID, ABDULRAQEEB",
+            "office": "P",
+            "office_full": "President",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "US"
+        },
+        {
+            "active_through": 2016,
+            "candidate_id": "P60022290",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2016,
+                2018
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2016
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2016-07-21",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2016-07-21",
+            "last_file_date": "2016-07-21",
+            "load_date": "2018-02-17T09:16:20",
+            "name": "ABOZAID, ABDULRAQEEBB MR.",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        },
+        {
+            "active_through": 2014,
+            "candidate_id": "H4UT03187",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2014
+            ],
+            "district": "03",
+            "district_number": 3,
+            "election_districts": [
+                "03"
+            ],
+            "election_years": [
+                2014
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2014-03-21T22:05:09",
+            "name": "ABRAHAM",
+            "office": "H",
+            "office_full": "House",
+            "party": "IAP",
+            "party_full": "INDEPENDENT AMERICAN PARTY",
+            "state": "UT"
+        },
+        {
+            "active_through": 2020,
+            "candidate_id": "H4LA05221",
+            "candidate_inactive": true,
+            "candidate_status": "C",
+            "cycles": [
+                2014,
+                2016,
+                2018,
+                2020
+            ],
+            "district": "05",
+            "district_number": 5,
+            "election_districts": [
+                "05",
+                "05",
+                "05",
+                "05"
+            ],
+            "election_years": [
+                2014,
+                2016,
+                2018,
+                2020
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2014-05-23",
+            "has_raised_funds": true,
+            "inactive_election_years": [
+                2020
+            ],
+            "incumbent_challenge": "I",
+            "incumbent_challenge_full": "Incumbent",
+            "last_f2_date": "2019-07-22",
+            "last_file_date": "2019-07-22",
+            "load_date": "2019-07-29T21:14:14",
+            "name": "ABRAHAM, RALPH LEE DR. JR.",
+            "office": "H",
+            "office_full": "House",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "LA"
+        },
+        {
+            "active_through": 1988,
+            "candidate_id": "H6CA24097",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                1986,
+                1988
+            ],
+            "district": "24",
+            "district_number": 24,
+            "election_districts": [
+                "24",
+                "24"
+            ],
+            "election_years": [
+                1986,
+                1988
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2002-03-30T00:00:00",
+            "name": "ABRAHAMS, GEORGE",
+            "office": "H",
+            "office_full": "House",
+            "party": "LIB",
+            "party_full": "LIBERTARIAN PARTY",
+            "state": "CA"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "H4GA06137",
+            "candidate_inactive": false,
+            "candidate_status": "C",
+            "cycles": [
+                2024
+            ],
+            "district": "07",
+            "district_number": 7,
+            "election_districts": [
+                "07"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2023-07-06",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2024-01-18",
+            "last_file_date": "2024-01-18",
+            "load_date": "2024-01-18T21:01:50",
+            "name": "ABRAHAM, SHELLY JOHN",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "GA"
+        },
+        {
+            "active_through": 2014,
+            "candidate_id": "H4NY04067",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                2014,
+                2016
+            ],
+            "district": "04",
+            "district_number": 4,
+            "election_districts": [
+                "04"
+            ],
+            "election_years": [
+                2014
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2014-02-03",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "O",
+            "incumbent_challenge_full": "Open seat",
+            "last_f2_date": "2014-02-03",
+            "last_file_date": "2014-02-03",
+            "load_date": "2015-04-02T15:52:44",
+            "name": "ABRAHAMS, KEVAN",
+            "office": "H",
+            "office_full": "House",
+            "party": "DEM",
+            "party_full": "DEMOCRATIC PARTY",
+            "state": "NY"
+        },
+        {
+            "active_through": 2022,
+            "candidate_id": "H2MN01371",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022
+            ],
+            "district": "01",
+            "district_number": 1,
+            "election_districts": [
+                "01"
+            ],
+            "election_years": [
+                2022
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": null,
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": null,
+            "last_file_date": null,
+            "load_date": "2022-08-15T21:09:17",
+            "name": "ABRAHAMSON, BRIAN",
+            "office": "H",
+            "office_full": "House",
+            "party": "OTH",
+            "party_full": "OTHER",
+            "state": "MN"
+        },
+        {
+            "active_through": 2000,
+            "candidate_id": "S4MI00165",
+            "candidate_inactive": false,
+            "candidate_status": "P",
+            "cycles": [
+                1994,
+                1996,
+                1998,
+                2000,
+                2002,
+                2004
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00",
+                "00"
+            ],
+            "election_years": [
+                1994,
+                2000
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "1993-06-14",
+            "has_raised_funds": true,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "1999-04-28",
+            "last_file_date": "1999-04-28",
+            "load_date": "2002-04-12T00:00:00",
+            "name": "ABRAHAM, SPENCER SENATOR",
+            "office": "S",
+            "office_full": "Senate",
+            "party": "REP",
+            "party_full": "REPUBLICAN PARTY",
+            "state": "MI"
+        },
+        {
+            "active_through": 2024,
+            "candidate_id": "P40006546",
+            "candidate_inactive": false,
+            "candidate_status": "N",
+            "cycles": [
+                2022,
+                2024
+            ],
+            "district": "00",
+            "district_number": 0,
+            "election_districts": [
+                "00"
+            ],
+            "election_years": [
+                2024
+            ],
+            "federal_funds_flag": false,
+            "first_file_date": "2021-09-26",
+            "has_raised_funds": false,
+            "inactive_election_years": null,
+            "incumbent_challenge": "C",
+            "incumbent_challenge_full": "Challenger",
+            "last_f2_date": "2021-09-26",
+            "last_file_date": "2021-09-26",
+            "load_date": "2023-01-12T22:24:01",
+            "name": "ABRAHAM, TERRANCE",
+            "office": "P",
+            "office_full": "President",
+            "party": "IND",
+            "party_full": "INDEPENDENT",
+            "state": "US"
+        }
+    ]
+}
