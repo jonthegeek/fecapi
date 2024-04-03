@@ -21,6 +21,11 @@ fec_get_candidates(
   incumbent_challenge = NULL,
   max_first_file_date = NULL,
   party = NULL,
+  sort = NULL,
+  sort_hide_null = NULL,
+  sort_null_only = NULL,
+  sort_nulls_last = NULL,
+  max_results = 100,
   api_key = Sys.getenv("FEC_API_KEY", unset = "DEMO_KEY")
 )
 }
@@ -82,6 +87,17 @@ received by the FEC before this date.}
 \item{party}{Three-letter code for the party affiliated with a candidate or
 committee. For example, DEM for Democratic Party and REP for Republican
 Party.}
+
+\item{sort}{Provide a field to sort by. Use \code{-} for descending order.}
+
+\item{sort_hide_null}{Hide null values on sorted column(s).}
+
+\item{sort_null_only}{Toggle that filters out all rows having sort column
+that is non-null}
+
+\item{sort_nulls_last}{Toggle that sorts null values last}
+
+\item{max_results}{The maximum number of results to return.}
 
 \item{api_key}{An API key provided by the API provider. This key is not
 clearly documented in the API description. Check the API documentation for

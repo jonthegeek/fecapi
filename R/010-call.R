@@ -3,11 +3,16 @@
 #' Generate a request to an OpenFEC endpoint.
 #'
 #' @inheritParams nectar::call_api
+#' @inheritParams rlang::args_error_context
+#' @param pagination The pagination scheme to use. Currently either "none" (the
+#'   default) or "basic" (a scheme that uses `per_page` and returned `pages`
+#'   information). If an endpoint has a `per_page` argument, use "basic".
+#' @param max_results The maximum number of results to return.
 #' @param api_key An API key provided by the API provider. This key is not
 #'   clearly documented in the API description. Check the API documentation for
 #'   details.
 #'
-#' @return The response from the endpoint.
+#' @return A tibble with the results of the API call.
 #' @export
 fec_call_api <- function(path,
                          query = list(),
@@ -23,7 +28,7 @@ fec_call_api <- function(path,
                          call = rlang::caller_env()) {
   next_req <- .choose_pagination_fn(pagination, call = call)
   query$per_page <- min(100, max_results)
-  max_reqs <- min(max_reqs, max_results/query$per_page)
+  max_reqs <- min(max_reqs, max_results / query$per_page)
 
   nectar::call_api(
     base_url = "https://api.open.fec.gov/v1",
@@ -39,4 +44,3 @@ fec_call_api <- function(path,
     max_reqs = max_reqs
   )
 }
-

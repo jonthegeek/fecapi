@@ -16,8 +16,7 @@ Imports:
     httr2,
     nectar (>= 0.0.0.9002),
     rlang,
-    tibble,
-    tidyr
+    tibblify
 Suggests: 
     beekeeper,
     httptest2,
