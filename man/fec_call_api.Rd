@@ -10,7 +10,7 @@ fec_call_api(
   body = NULL,
   method = NULL,
   pagination = c("none", "basic"),
-  max_results = 100,
+  max_results = Inf,
   max_reqs = Inf,
   api_key = Sys.getenv("FEC_API_KEY", unset = "DEMO_KEY"),
   call = rlang::caller_env()
@@ -36,8 +36,10 @@ information). If an endpoint has a \code{per_page} argument, use "basic".}
 
 \item{max_results}{The maximum number of results to return.}
 
-\item{max_reqs}{The maximum number of requests to perform. Use \code{Inf} to
-perform all requests until \code{next_req()} returns \code{NULL}.}
+\item{max_reqs}{The maximum number of separate requests to perform. Passed to
+the max_reqs argument of \code{\link[httr2:req_perform_iterative]{httr2::req_perform_iterative()}} when \code{next_req}
+is supplied. The default \code{2} should likely be changed to \code{Inf} after you
+validate the function.}
 
 \item{api_key}{An API key provided by the API provider. This key is not
 clearly documented in the API description. Check the API documentation for
