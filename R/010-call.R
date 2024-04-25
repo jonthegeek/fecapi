@@ -1,3 +1,9 @@
+# Set up the basic call once at package build.
+req_fec_base <- nectar::req_setup(
+  "https://api.open.fec.gov/v1",
+  user_agent = "fecapi (https://github.com/jonthegeek/fecapi)"
+)
+
 #' Call the OpenFEC API
 #'
 #' Generate a request to an OpenFEC endpoint.
@@ -19,27 +25,45 @@ fec_call_api <- function(path,
                          body = NULL,
                          method = NULL,
                          pagination = c("none", "basic"),
-                         max_results = 100,
+                         max_results = Inf,
                          max_reqs = Inf,
                          api_key = Sys.getenv(
                            "FEC_API_KEY",
                            unset = "DEMO_KEY"
                          ),
                          call = rlang::caller_env()) {
-  next_req <- .choose_pagination_fn(pagination, call = call)
+  req_secure <- .security(req_fec_base, api_key = api_key)
   query$per_page <- min(100, max_results)
-  max_reqs <- min(max_reqs, max_results / query$per_page)
-
-  nectar::call_api(
-    base_url = "https://api.open.fec.gov/v1",
+  req <- nectar::req_modify(
+    req_secure,
     path = path,
     query = query,
     body = body,
-    method = method,
-    user_agent = "fecapi (https://github.com/jonthegeek/fecapi)",
-    security_fn = .security,
-    security_args = list(api_key = api_key),
-    response_parser = .response_parser,
+    method = method
+  )
+
+  # Edited beekeeper code to implement pagination.
+  resp <- .fec_perform(
+    req,
+    pagination,
+    query$per_page,
+    max_results,
+    max_reqs,
+    call = call
+  )
+  nectar::resp_parse(resp, response_parser = .response_parser)
+}
+
+.fec_perform <- function(req,
+                         pagination,
+                         per_page,
+                         max_results,
+                         max_reqs,
+                         call) {
+  next_req <- .choose_pagination_fn(pagination, call = call)
+  max_reqs <- min(max_reqs, ceiling(max_results / per_page))
+  nectar::req_perform_opinionated(
+    req,
     next_req = next_req,
     max_reqs = max_reqs
   )
