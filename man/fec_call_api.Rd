@@ -17,11 +17,15 @@ fec_call_api(
 )
 }
 \arguments{
-\item{path}{The route to an API endpoint. Optionally, a list with the path
-plus variables to \code{\link[glue:glue]{glue::glue()}} into the path.}
+\item{path}{The route to an API endpoint. Optionally, a list or character
+vector with the path as one or more unnamed arguments (which will be
+concatenated with "/") plus named arguments to \code{\link[glue:glue]{glue::glue()}} into the
+path.}
 
-\item{query}{An optional list of parameters to pass in the query portion of
-the request.}
+\item{query}{An optional list or character vector of parameters to pass in
+the query portion of the request. Can also include a \code{.multi} argument to
+pass to \code{\link[httr2:req_url]{httr2::req_url_query()}} to control how elements containing
+multiple values are handled.}
 
 \item{body}{An object to use as the body of the request. If any component of
 the body is a path, pass it through \code{\link[fs:path]{fs::path()}} or otherwise give it the
@@ -34,7 +38,9 @@ Case is ignored.}
 default) or "basic" (a scheme that uses \code{per_page} and returned \code{pages}
 information). If an endpoint has a \code{per_page} argument, use "basic".}
 
-\item{max_results}{The maximum number of results to return.}
+\item{max_results}{The maximum number of results to return. Note that
+slightly more results may be returned if \code{max_results} is not evenly
+divisible by 100.}
 
 \item{max_reqs}{The maximum number of separate requests to perform. Passed to
 the max_reqs argument of \code{\link[httr2:req_perform_iterative]{httr2::req_perform_iterative()}} when \code{next_req}
@@ -54,5 +60,5 @@ mentioned in error messages as the source of the error. See the
 A tibble with the results of the API call.
 }
 \description{
-Generate a request to an OpenFEC endpoint.
+Generate and perform request to an OpenFEC endpoint.
 }

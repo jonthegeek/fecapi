@@ -2,21 +2,21 @@
 # components@security_schemes from the source API description. You may want to
 # delete unused options. In addition, APIs often have additional security
 # options that are not formally documented in the API description. For example,
-# for any `location = query` `api_key` options, it might be possible to instead
+# for any location = query` `api_key` options, it might be possible to instead
 # pass the same parameter in a header, possibly with a different name. Consult
 # the text description of authentication in your API documentation.
 
-.security <- function(req, api_key = NULL) {
+.fec_req_auth <- function(req, api_key = NULL) {
   if (!is.null(api_key)) {
-    req <- .security_api_key_header_auth(req, api_key)
+    req <- .fec_req_auth_api_key_header(req, api_key)
   }
   return(req)
 }
 
 # An API key provided by the API provider. This key is not clearly documented in
 # the API description. Check the API documentation for details.
-.security_api_key_header_auth <- function(req, api_key) {
-  nectar::security_api_key(
+.fec_req_auth_api_key_header <- function(req, api_key) {
+  nectar::req_auth_api_key(
     req,
     location = "header",
     parameter_name = "X-Api-Key",
