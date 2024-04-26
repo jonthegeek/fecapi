@@ -24,6 +24,8 @@ fec_get_candidate_candidate_id(
   incumbent_challenge,
   party,
   candidate_id,
+  max_results = Inf,
+  max_reqs = Inf,
   api_key = Sys.getenv("FEC_API_KEY", unset = "DEMO_KEY")
 )
 }
@@ -87,6 +89,15 @@ Party.}
 \item{candidate_id}{A unique identifier assigned to each candidate registered
 with the FEC. If a person runs for several offices, that person will have
 separate candidate IDs for each office.}
+
+\item{max_results}{The maximum number of results to return. Note that
+slightly more results may be returned if \code{max_results} is not evenly
+divisible by 100.}
+
+\item{max_reqs}{The maximum number of separate requests to perform. Passed to
+the max_reqs argument of \code{\link[httr2:req_perform_iterative]{httr2::req_perform_iterative()}} when \code{next_req}
+is supplied. The default \code{2} should likely be changed to \code{Inf} after you
+validate the function.}
 
 \item{api_key}{An API key provided by the API provider. This key is not
 clearly documented in the API description. Check the API documentation for

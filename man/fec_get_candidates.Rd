@@ -97,7 +97,9 @@ that is non-null}
 
 \item{sort_nulls_last}{Toggle that sorts null values last}
 
-\item{max_results}{The maximum number of results to return.}
+\item{max_results}{The maximum number of results to return. Note that
+slightly more results may be returned if \code{max_results} is not evenly
+divisible by 100.}
 
 \item{api_key}{An API key provided by the API provider. This key is not
 clearly documented in the API description. Check the API documentation for

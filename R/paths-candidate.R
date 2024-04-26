@@ -72,6 +72,8 @@ fec_get_candidate_candidate_id <- function(office,
                                            incumbent_challenge,
                                            party,
                                            candidate_id,
+                                           max_results = Inf,
+                                           max_reqs = Inf,
                                            api_key = Sys.getenv(
                                              "FEC_API_KEY",
                                              unset = "DEMO_KEY"
@@ -100,7 +102,9 @@ fec_get_candidate_candidate_id <- function(office,
       incumbent_challenge = incumbent_challenge,
       party = party
     ),
-    pagination = "basic"
+    pagination = "basic",
+    max_results = max_results,
+    max_reqs = max_reqs
   )
 }
 

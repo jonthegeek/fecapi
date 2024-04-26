@@ -1,19 +1,16 @@
 # Set up the basic call once at package build.
-req_fec_base <- nectar::req_setup(
+fec_req_base <- nectar::req_setup(
   "https://api.open.fec.gov/v1",
   user_agent = "fecapi (https://github.com/jonthegeek/fecapi)"
 )
 
 #' Call the OpenFEC API
 #'
-#' Generate a request to an OpenFEC endpoint.
+#' Generate and perform request to an OpenFEC endpoint.
 #'
-#' @inheritParams nectar::call_api
+#' @inheritParams nectar::req_modify
+#' @inheritParams .fec_req_perform
 #' @inheritParams rlang::args_error_context
-#' @param pagination The pagination scheme to use. Currently either "none" (the
-#'   default) or "basic" (a scheme that uses `per_page` and returned `pages`
-#'   information). If an endpoint has a `per_page` argument, use "basic".
-#' @param max_results The maximum number of results to return.
 #' @param api_key An API key provided by the API provider. This key is not
 #'   clearly documented in the API description. Check the API documentation for
 #'   details.
@@ -32,34 +29,52 @@ fec_call_api <- function(path,
                            unset = "DEMO_KEY"
                          ),
                          call = rlang::caller_env()) {
-  req_secure <- .security(req_fec_base, api_key = api_key)
+  # Edited beekeeper code to implement pagination.
   query$per_page <- min(100, max_results)
+
   req <- nectar::req_modify(
-    req_secure,
+    fec_req_base,
     path = path,
     query = query,
     body = body,
     method = method
   )
+  req <- .fec_req_auth(req, api_key = api_key)
 
   # Edited beekeeper code to implement pagination.
-  resp <- .fec_perform(
+  resp <- .fec_req_perform(
     req,
-    pagination,
-    query$per_page,
-    max_results,
-    max_reqs,
+    pagination = pagination,
+    per_page = query$per_page,
+    max_results = max_results,
+    max_reqs = max_reqs,
     call = call
   )
-  nectar::resp_parse(resp, response_parser = .response_parser)
+
+  nectar::resp_parse(resp, response_parser = .fec_response_parser)
 }
 
-.fec_perform <- function(req,
-                         pagination,
-                         per_page,
-                         max_results,
-                         max_reqs,
-                         call) {
+#' Choose and apply pagination strategy
+#'
+#' @inheritParams rlang::args_error_context
+#' @inheritParams nectar::req_perform_opinionated
+#' @param req The request object to modify.
+#' @param pagination The pagination scheme to use. Currently either "none" (the
+#'   default) or "basic" (a scheme that uses `per_page` and returned `pages`
+#'   information). If an endpoint has a `per_page` argument, use "basic".
+#' @param max_results The maximum number of results to return. Note that
+#'   slightly more results may be returned if `max_results` is not evenly
+#'   divisible by 100.
+#' @param per_page The number of results to return per page.
+#'
+#' @inherit nectar::req_perform_opinionated return
+#' @keywords internal
+.fec_req_perform <- function(req,
+                             pagination,
+                             per_page,
+                             max_results,
+                             max_reqs,
+                             call) {
   next_req <- .choose_pagination_fn(pagination, call = call)
   max_reqs <- min(max_reqs, ceiling(max_results / per_page))
   nectar::req_perform_opinionated(
