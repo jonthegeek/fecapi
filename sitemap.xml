@@ -25,7 +25,10 @@
     <loc>https://jonthegeek.github.io/fecapi/index.html</loc>
   </url>
   <url>
-    <loc>https://jonthegeek.github.io/fecapi/reference/dot-response_parser.html</loc>
+    <loc>https://jonthegeek.github.io/fecapi/reference/dot-fec_req_perform.html</loc>
+  </url>
+  <url>
+    <loc>https://jonthegeek.github.io/fecapi/reference/dot-fec_response_parser.html</loc>
   </url>
   <url>
     <loc>https://jonthegeek.github.io/fecapi/reference/fec_call_api.html</loc>
